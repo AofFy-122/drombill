@@ -1,9 +1,6 @@
-import Link from 'next/link'
 import React from 'react'
 
-
-const page = async() => {
-
+const loginpage = () => {
   return (
     <>
       <div className="min-h-screen w-full bg-[#1e2330] flex items-center justify-center p-4 md:p-10 font-sans">
@@ -25,7 +22,7 @@ const page = async() => {
             </p>
           </div>
 
-          {/* ไอคอนด้านล่างซ้าย (ใช้ SVG Inline เพื่อไม่ต้องลง library เพิ่ม) */}
+          {/* ไอคอนด้านล่างซ้าย  */}
           <div className="flex gap-4 mt-12 md:mt-24">
             {/* Icon: Lightning */}
             <div className="text-[#ff9f65] w-8 h-8">
@@ -99,4 +96,4 @@ const page = async() => {
   )
 }
 
-export default page
+export default loginpage
