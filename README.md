@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DromBillPro - Water & Electricity Billing System
+
+DromBillPro is a comprehensive web application designed to manage water and electricity billing efficiently. It includes features for calculating utilities and a specialized reward points system for tenants.
+
+## Overview
+
+This project is built to streamline the billing process for property managers and landlords, providing an intuitive interface for both management and tenants. 
+
+**Key Features:**
+- **Utility Billing Management:** Efficient tracking and calculation for water and electricity bills.
+- **Tenant Dashboard:** Dedicated portal for tenants to view their usage, billing history, and manage accounts.
+- **Reward Points System:** Integrated points accumulation system for tenants.
+- **Modern User Interface:** Responsive and user-friendly design using Tailwind CSS.
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **UI Library:** React
+- **Styling:** Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to set up the project locally for development and testing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have Node.js installed. You can use npm, yarn, pnpm, or bun as your package manager.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Navigate to the project directory:
+   ```bash
+   cd drombill
+   ```
 
-## Learn More
+2. Install the dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- `app/`: Contains the Next.js App Router files including pages, layouts, and routing logic.
+  - `(auth)/`: Authentication related pages.
+  - `(menuTenant)/`: Tenant-specific dashboard and views.
+- `components/`: Reusable React components.
+- `public/`: Static assets such as images and icons.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm run start`: Runs the built app in production mode.
+- `npm run lint`: Runs ESLint to catch and fix code issues.
+
+## License
+
+This project is private and proprietary.

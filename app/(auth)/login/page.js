@@ -76,6 +76,7 @@ const loginpage = () => {
                   className="w-full bg-white rounded-full px-6 py-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#ff9f65] shadow-sm"
                 />
               </div>
+              
 
               <div className="pt-4 flex justify-center">
                 <button 
